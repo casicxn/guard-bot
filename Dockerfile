@@ -1,4 +1,4 @@
-FROM node:24-bookworm-slim AS build
+FROM node:25-bookworm-slim AS build
 WORKDIR /app
 RUN npm install --global pnpm@11.25.0
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
@@ -7,7 +7,7 @@ COPY tsconfig*.json ./
 COPY src ./src
 RUN pnpm build && pnpm prune --prod
 
-FROM node:24-bookworm-slim
+FROM node:25-bookworm-slim
 ENV NODE_ENV=production DATABASE_PATH=/app/data/guard.sqlite
 WORKDIR /app
 COPY --from=build /app/node_modules ./node_modules
