@@ -1,0 +1,21 @@
+services:
+  guard:
+    hostname: ultimate-guard
+    build: .
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/guard.sqlite
+      LOG_DIRECTORY: /app/logs
+    volumes:
+      - guard-data:/app/data
+      - guard-logs:/app/logs
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  guard-data:
+  guard-logs:

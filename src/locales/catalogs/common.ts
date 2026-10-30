@@ -1,0 +1,191 @@
+export const en: Record<string, string> = {
+  "common.brand": "Developed by Casi",
+  "common.back": "Back",
+  "common.next": "Next",
+  "common.previous": "Previous",
+  "common.page": "Page {page}",
+  "common.none": "None",
+  "common.unknown": "Unknown",
+  "common.enabled": "Enabled",
+  "common.disabled": "Disabled",
+  "common.active": "Active",
+  "common.save": "Save",
+  "common.cancel": "Cancel",
+  "common.confirm": "Confirm",
+  "common.yes": "Yes",
+  "common.no": "No",
+  "common.notConfigured": "Not configured",
+  "common.language": "Language",
+  "common.turkish": "Türkçe",
+  "common.english": "English",
+  "common.success": "Completed successfully",
+  "common.error": "We could not complete that action",
+  "common.warning": "Attention required",
+  "common.seconds": "{count} seconds",
+  "mode.monitor": "Monitor",
+  "mode.protect": "Protect",
+  "mode.monitor.description":
+    "Records security activity without automatic punishment.",
+  "mode.protect.description":
+    "Applies explicitly configured responses when attribution, permissions and limits allow it.",
+  "action.log": "Record only",
+  "action.warn": "Security warning",
+  "action.strip": "Remove dangerous roles",
+  "action.kick": "Kick executor",
+  "action.ban": "Ban executor",
+  "action.lockdown": "Raise verification",
+  "action.reverse": "Reverse supported changes",
+  "status.recorded": "Recorded",
+  "status.pending": "In progress",
+  "status.handled": "Response completed",
+  "status.failed": "Could not complete",
+  "status.degraded": "Protection limited",
+  "status.exempt": "Trusted or protected",
+  "status.confirmed": "Confirmed",
+  "status.unresolved": "Unresolved — no punishment",
+  "status.running": "In progress",
+  "status.finished": "Finished — check individual results",
+  "status.done": "Completed",
+  "status.uncertain": "Needs manual review",
+  "type.user": "User",
+  "type.role": "Role",
+  "type.bot": "Bot",
+  "severity.info": "Information",
+  "severity.warning": "Warning",
+  "severity.critical": "Critical",
+  "permission.ViewAuditLog": "View Audit Log",
+  "permission.ManageRoles": "Manage Roles",
+  "permission.ManageChannels": "Manage Channels",
+  "permission.BanMembers": "Ban Members",
+  "permission.KickMembers": "Kick Members",
+  "permission.ManageGuild": "Manage Server",
+  "permission.ViewChannel": "View Channel",
+  "permission.SendMessages": "Send Messages",
+  "permission.EmbedLinks": "Embed Links",
+  "error.owner": "Only the configured bot owner can manage guard settings.",
+  "error.sessionExpired":
+    "This panel expired or belongs to another user. Open /guard panel again.",
+  "error.sessionUsed":
+    "This confirmation was already used. Open a new panel to continue.",
+  "error.sessionCapacity":
+    "Too many panels are open. Wait a few minutes, then open /guard panel again.",
+  "error.generic":
+    "The action could not be completed. Check the bot permissions and try again. Technical details were saved in local logs.",
+  "error.guildOnly": "Use this command inside your server.",
+  "error.invalidRoute":
+    "This control is no longer available. Open /guard panel again.",
+  "error.guildUnavailable":
+    "The server is temporarily unavailable. Try /guard panel again shortly.",
+  "error.translationMissing":
+    "This information is temporarily unavailable. Please try again.",
+  "error.count":
+    "The action limit must be an integer from 1 to 10000. For example: 5.",
+  "error.seconds":
+    "The time window must be an integer from 1 to 86400 seconds. For example: 60.",
+  "error.moduleMissing":
+    "This protection is no longer available. Choose another protection from the menu.",
+  "error.permission":
+    "The bot lacks the required permission: {permission}. Update its server permissions and try again.",
+  "error.hierarchy":
+    "The bot cannot manage a member or role at or above its highest role. Move the bot role above the affected roles.",
+  "error.lookup":
+    "Discord could not confirm this user or role. Check the bot permissions and try again. Nothing was changed.",
+  "error.notFound":
+    "The requested item was not found in this server. Refresh the panel and try again.",
+};
+export const tr: Record<string, string> = {
+  "common.brand": "Casi tarafından geliştirildi",
+  "common.back": "Geri",
+  "common.next": "Sonraki",
+  "common.previous": "Önceki",
+  "common.page": "Sayfa {page}",
+  "common.none": "Yok",
+  "common.unknown": "Bilinmiyor",
+  "common.enabled": "Açık",
+  "common.disabled": "Kapalı",
+  "common.active": "Aktif",
+  "common.save": "Kaydet",
+  "common.cancel": "İptal",
+  "common.confirm": "Onayla",
+  "common.yes": "Evet",
+  "common.no": "Hayır",
+  "common.notConfigured": "Ayarlanmadı",
+  "common.language": "Dil",
+  "common.turkish": "Türkçe",
+  "common.english": "English",
+  "common.success": "İşlem başarıyla tamamlandı",
+  "common.error": "İşlem tamamlanamadı",
+  "common.warning": "Dikkat gerekiyor",
+  "common.seconds": "{count} saniye",
+  "mode.monitor": "İzleme",
+  "mode.protect": "Koruma",
+  "mode.monitor.description":
+    "Güvenlik hareketlerini kaydeder; otomatik ceza uygulamaz.",
+  "mode.protect.description":
+    "Kimlik doğrulaması, yetkiler ve limitler uygunsa açıkça seçilmiş güvenlik yanıtını uygular.",
+  "action.log": "Yalnızca kaydet",
+  "action.warn": "Güvenlik uyarısı",
+  "action.strip": "Tehlikeli rolleri kaldır",
+  "action.kick": "İşlemi yapanı at",
+  "action.ban": "İşlemi yapanı yasakla",
+  "action.lockdown": "Doğrulamayı yükselt",
+  "action.reverse": "Desteklenen değişiklikleri geri al",
+  "status.recorded": "Kaydedildi",
+  "status.pending": "İşleniyor",
+  "status.handled": "Güvenlik yanıtı tamamlandı",
+  "status.failed": "Tamamlanamadı",
+  "status.degraded": "Koruma sınırlı",
+  "status.exempt": "Güvenilir veya korunan",
+  "status.confirmed": "Doğrulandı",
+  "status.unresolved": "Doğrulanamadı — ceza uygulanmaz",
+  "status.running": "İşleniyor",
+  "status.finished": "Bitti — kaynak sonuçlarını kontrol edin",
+  "status.done": "Tamamlandı",
+  "status.uncertain": "Manuel inceleme gerekiyor",
+  "type.user": "Kullanıcı",
+  "type.role": "Rol",
+  "type.bot": "Bot",
+  "severity.info": "Bilgi",
+  "severity.warning": "Uyarı",
+  "severity.critical": "Kritik",
+  "permission.ViewAuditLog": "Denetim Kaydını Görüntüle",
+  "permission.ManageRoles": "Rolleri Yönet",
+  "permission.ManageChannels": "Kanalları Yönet",
+  "permission.BanMembers": "Üyeleri Yasakla",
+  "permission.KickMembers": "Üyeleri At",
+  "permission.ManageGuild": "Sunucuyu Yönet",
+  "permission.ViewChannel": "Kanalı Görüntüle",
+  "permission.SendMessages": "Mesaj Gönder",
+  "permission.EmbedLinks": "Bağlantı Yerleştir",
+  "error.owner":
+    "Guard ayarlarını yalnızca yapılandırılmış bot sahibi yönetebilir.",
+  "error.sessionExpired":
+    "Bu panelin süresi doldu veya panel başka bir kullanıcıya ait. /guard panel komutuyla yeniden açın.",
+  "error.sessionUsed":
+    "Bu onay daha önce kullanıldı. Devam etmek için yeni bir panel açın.",
+  "error.sessionCapacity":
+    "Çok fazla panel açık. Birkaç dakika bekleyip /guard panel komutunu yeniden kullanın.",
+  "error.generic":
+    "İşlem tamamlanamadı. Botun yetkilerini kontrol edip yeniden deneyin. Teknik ayrıntılar yerel kayıtlara yazıldı.",
+  "error.guildOnly": "Bu komutu sunucunuzun içinde kullanın.",
+  "error.invalidRoute":
+    "Bu kontrol artık kullanılamıyor. /guard panel komutuyla paneli yeniden açın.",
+  "error.guildUnavailable":
+    "Sunucuya şu anda ulaşılamıyor. Kısa süre sonra /guard panel komutunu yeniden deneyin.",
+  "error.translationMissing":
+    "Bu bilgiye şu anda ulaşılamıyor. Lütfen yeniden deneyin.",
+  "error.count":
+    "İşlem limiti 1 ile 10000 arasında bir tam sayı olmalıdır. Örnek: 5.",
+  "error.seconds":
+    "Süre 1 ile 86400 saniye arasında bir tam sayı olmalıdır. Örnek: 60.",
+  "error.moduleMissing":
+    "Bu koruma artık kullanılamıyor. Menüden başka bir koruma seçin.",
+  "error.permission":
+    "Botta gereken yetki yok: {permission}. Sunucu yetkilerini düzenleyip yeniden deneyin.",
+  "error.hierarchy":
+    "Bot, en yüksek rolüne eşit veya daha üstteki üyeyi ya da rolü yönetemez. Bot rolünü ilgili rollerin üzerine taşıyın.",
+  "error.lookup":
+    "Discord bu kullanıcıyı veya rolü doğrulayamadı. Botun yetkilerini kontrol edip yeniden deneyin. Hiçbir değişiklik yapılmadı.",
+  "error.notFound":
+    "İstenen öğe bu sunucuda bulunamadı. Paneli yenileyip tekrar deneyin.",
+};
