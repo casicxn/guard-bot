@@ -121,7 +121,7 @@ Discord logs are best effort and require a working configured text channel with 
 
 ## Release verification still required
 
-Run all local checks and inspect `PROJECT_STATUS.md`. Before declaring a production release, verify command registration, owner authorization, session expiration, real audit event normalization, permission-loss behavior, supported backups/restores and graceful shutdown on a disposable test guild. Build and run the supplied container and confirm volume persistence. Capture evidence without exposing credentials, and document any Discord capability limitations discovered.
+Run all local checks and inspect the Quality workflow results. Before declaring a production release, verify command registration, owner authorization, session expiration, real audit event normalization, permission-loss behavior, supported backups/restores and graceful shutdown on a disposable test guild. Build and run the supplied container and confirm volume persistence. Capture evidence without exposing credentials, and document any Discord capability limitations discovered.
 
 ## Reading recovery jobs in Discord
 

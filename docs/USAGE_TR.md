@@ -1,6 +1,6 @@
 # Ultimate Guard — Türkçe kullanım
 
-Ultimate Guard güvenlik yönetimini Discord içinde sunar. Mevcut sürümün canlı Discord ve Docker doğrulaması beklemektedir; otomatik kontrol sonuçları PROJECT_STATUS.md içindedir.
+Ultimate Guard güvenlik yönetimini Discord içinde sunar. Mevcut sürümün canlı Discord ve Docker doğrulaması beklemektedir; otomatik kontrol sonuçları GitHub Actions üzerindeki Quality iş akışında bulunur.
 
 ## Kurulum ve güncelleme
 
