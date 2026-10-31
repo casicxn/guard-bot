@@ -1,5 +1,7 @@
 # Ultimate Guard
 
+[Türkçe](README.md) | [English](README.en.md)
+
 Discord.js v14, TypeScript ve SQLite ile çalışan Discord sunucu koruma botu.
 
 ## Özellikler
